@@ -29,7 +29,7 @@ header {
 header > h1 {
     font-family: var(--font2);
     padding-top: 5rem;
-    font-variant: small-caps;
+    font-variant: small-caps;/* Alternativa ao text-decoration: upercase; */
     font-size: 10vw;
 }
 header > p {
@@ -44,22 +44,22 @@ a:hover {
     text-decoration: underline;
 }
 section {
+    font-family: var(--font3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 3rem;
-    font-family: var(--font3);
-    font-size: 3.5vw;
+    font-size: 4vw;
 }
 section > p {
-    padding-bottom: 2em;
+    padding-bottom: 2rem;
 }
 section.normal {
     background-color: white;
     color: black;
 }
 section.imagem {
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(53, 53, 53);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
